@@ -34,18 +34,40 @@ nav a:hover {
 .card {
     float: left;
     width: 20%;
-    margin: 10%;
+    margin-left: 10%;
+    margin-top: 5%;
+
 }
 
-.card a {
+.card a{
+    float:left;
     text-align: center;
 }
 
 img {
-    height: 100%;
-    width: 180px;
+    height: 150px;
+    width:270px;
 }
 
 h1 {
     text-align: center;
+}
+
+@media screen and (max-width: 943px){
+
+img {
+    height: 50px;
+    width:90px;
+}
+
+}
+
+@media screen and (max-width: 800px){
+
+   nav li {
+font-size: 0.9em;
+display: inline-block;
+margin: 1.5%;
+}
+
 }
